@@ -5,10 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI PRIMER PASO EN GIT</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,900;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48c138decf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css"/>
     
 </head>
 <body>
-    <h1>hola a todos</h1>
+<header>
+<div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-auto">
+            <h1>MI PROYECTO DE GITHUB</h1>
+            <div class="col-auto">
+                <div class="avatar-container" data-target="#profileOptions" data-toggle="modal">
+                    <img src="img/avatar.jpg" alt=""> 
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+   
+<div class="modal fade" id="profileOptions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">                                                                                                                                                                                                                                              v class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title">Opciones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </div> 
+</div>
+
+        <div class="modal-body">
+            <ul class="profile-options-list">
+                <li>
+                    <a href="#"><i class="fas fa-user"></i> Mi perfil</a>                    
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Mis direcciones</a>                    
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-credit-card"></i> Mis tarjetas</a>                    
+                </li>
+                <li>
+                    <a href="#" class="text-danger"><i class="fas fa-times-circle"></i> cerrar sesión</a>
+                </li>
+            </ul>
+        </div>
+
+</header>
+<script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 </body>
-</html>
+</html>  
