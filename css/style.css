@@ -2,7 +2,7 @@
 $primary: #ff7f00;
 $black2: #495057;
 
-@import "js/bootstrap.min.js";
+@import "proyectos git hub/bootstrap";
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -21,4 +21,63 @@ a{
         text-decoration: none;
     } 
 }
+// header
+
+header {
+    background-color: aliceblue;
+    padding: 10px 0;
+    box-shadow: 0 5px 10 px rgba(204,204,204,0.31);
+    h1:{
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .avatar-container{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+    }
+
+    i{
+        position: absolute;
+        left: 0;
+        top: 0;
+        font font-size: 20px;
+        color: brown;
+    }
+}
+
+.profile-options-modal{
+    profile-option-list{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li{
+            a{
+                display: block;
+                padding: 10px;
+                color: black;
+
+                i{
+                    display: inline-block;
+                    width: 18px;
+                    text-align: center;
+                    margin-right: 5px;
+                }
+            }
+        }
+       }
+}
+
+
 
