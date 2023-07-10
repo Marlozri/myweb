@@ -7,8 +7,3 @@ un texto
 ##subtitulos 
 ya parece que se pudo hacer algo
 
-vamos a probar como funciona esto porque la verdad esta muy mal explicado
-
-no veo la parte verde que dice que aparece
-
-##modificaciones
