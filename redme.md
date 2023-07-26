@@ -6,4 +6,7 @@ un texto
 <p>esto se pone cada vez mas dificil</p>
 ##subtitulos 
 ya parece que se pudo hacer algo
-
+RETOMANDO EL CURSO
+ITEM
+ITEM
+ITEM
