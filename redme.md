@@ -7,6 +7,4 @@ un texto
 ##subtitulos 
 ya parece que se pudo hacer algo
 RETOMANDO EL CURSO
-ITEM
-ITEM
-ITEM
+
